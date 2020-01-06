@@ -1,0 +1,2735 @@
+{
+    "name": "OilRig (G0049)",
+    "version": "2.2",
+    "domain": "mitre-enterprise",
+    "description": "Enterprise techniques used by OilRig, ATT&CK group G0049 v1.2",
+    "filters": {
+        "stages": [
+            "act"
+        ],
+        "platforms": [
+            "Windows",
+            "Linux",
+            "macOS"
+        ]
+    },
+    "sorting": 0,
+    "viewMode": 0,
+    "hideDisabled": true,
+    "techniques": [
+        {
+            "techniqueID": "T1156",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1134",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1134",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1015",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1015",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1531",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1098",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1098",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1182",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1182",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1103",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1103",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1155",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1155",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1017",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1138",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1138",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1010",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1123",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1131",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1020",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1197",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1197",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1139",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1009",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1067",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1217",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1176",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1088",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1088",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1191",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1191",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1042",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1146",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1115",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1116",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1092",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1500",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1109",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1109",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1122",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1122",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1175",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1175",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1090",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1090",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1196",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1196",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1136",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1503",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1214",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1024",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1207",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1038",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1038",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1038",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1073",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1002",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1485",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1132",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1022",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1486",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1001",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1074",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1030",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1213",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1005",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1039",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1025",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1491",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1089",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1488",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1487",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1172",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1483",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1482",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1189",
+            "tactic": "initial-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1157",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1157",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1173",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1514",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1114",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1519",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1519",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1499",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1480",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1106",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1129",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1041",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1011",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1052",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1190",
+            "tactic": "initial-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1203",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1212",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1211",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1068",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1210",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1181",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1181",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1006",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1044",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1044",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1083",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1222",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1495",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1187",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1144",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1061",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1484",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1148",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1200",
+            "tactic": "initial-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1158",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1158",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1147",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1143",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1179",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1179",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1179",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1062",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1183",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1183",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1183",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1054",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1070",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1202",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1490",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1141",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1130",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1118",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1118",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1534",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1208",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1215",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1142",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1161",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1149",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1171",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1177",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1177",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1159",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1160",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1160",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1152",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1152",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1152",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1168",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1168",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1162",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1037",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1037",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1185",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1036",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1031",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1112",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1170",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1170",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1104",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1188",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1026",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1079",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1096",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1128",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1498",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1126",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1135",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1040",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1040",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1050",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1050",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1137",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1502",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1502",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1075",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1097",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1174",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1034",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1034",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1120",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1150",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1150",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1150",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1205",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1205",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1205",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1013",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1013",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1504",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1504",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1145",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1186",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1093",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1055",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1055",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1163",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1164",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1060",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1121",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1121",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1117",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1117",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1219",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1018",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1091",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1091",
+            "tactic": "initial-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1496",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1014",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1085",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1085",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1494",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1178",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1198",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1198",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1184",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1029",
+            "tactic": "exfiltration",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1180",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1063",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1101",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1167",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1505",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1035",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1058",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1058",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1489",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1166",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1166",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1051",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1023",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1218",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1218",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1216",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1216",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1518",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1045",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1153",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1151",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1151",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1095",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1165",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1165",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1539",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1492",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1169",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1206",
+            "tactic": "privilege-escalation",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1195",
+            "tactic": "initial-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1019",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1529",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1124",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1501",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1080",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1221",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1072",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1072",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1209",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1099",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1493",
+            "tactic": "impact",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1154",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1154",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1127",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1127",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1199",
+            "tactic": "initial-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1111",
+            "tactic": "credential-access",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1065",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1125",
+            "tactic": "collection",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1497",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1497",
+            "tactic": "discovery",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1102",
+            "tactic": "command-and-control",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1102",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1077",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1084",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1028",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1028",
+            "tactic": "lateral-movement",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1004",
+            "tactic": "persistence",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1220",
+            "tactic": "defense-evasion",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1220",
+            "tactic": "execution",
+            "color": "",
+            "comment": "",
+            "enabled": false,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1087",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has run net user, net user /domain, net group \"domain admins\" /domain, and net group \"Exchange Trusted Subsystem\" /domain to get account listings on a victim.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1119",
+            "tactic": "collection",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used automated collection.[5]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1110",
+            "tactic": "credential-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used brute force techniques to obtain credentials.[10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1059",
+            "tactic": "execution",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used the command-line interface for execution.[6][9][5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1043",
+            "tactic": "command-and-control",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used port 80 to call back to the C2 server. [13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1223",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used a CHM payload to load and execute another malicious file once delivered to a victim.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1223",
+            "tactic": "execution",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used a CHM payload to load and execute another malicious file once delivered to a victim.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1003",
+            "tactic": "credential-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used credential dumping tools such as Mimikatz and LaZagne to steal credentials to accounts logged into the compromised system and to Outlook Web Access.[5][10][15][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1081",
+            "tactic": "credential-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used tools named VALUEVAULT and PICKPOCKET to dump passwords from web browsers. [13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1094",
+            "tactic": "command-and-control",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used custom DNS Tunneling protocols for C2.[5]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1140",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "A OilRig macro has run a PowerShell command to decode file contents. OilRig has also used certutil to decode base64-encoded files on victims.[6][8][9]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1048",
+            "tactic": "exfiltration",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has exfiltrated data over FTP separately from its primary C2 channel over DNS.[4]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1133",
+            "tactic": "persistence",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig uses remote services such as VPN, Citrix, or OWA to persist in an environment.[10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1133",
+            "tactic": "initial-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig uses remote services such as VPN, Citrix, or OWA to persist in an environment.[10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1008",
+            "tactic": "command-and-control",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig malware ISMAgent falls back to its DNS tunneling mechanism if it is unable to reach the C2 server over HTTP.[11]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1107",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has deleted files associated with their payload after execution.[6][9]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1066",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has tested malware samples to determine AV detection and subsequently modified the samples to ensure AV evasion.[1][12]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1056",
+            "tactic": "collection",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used keylogging tools called KEYPUNCH and LONGWATCH.  [10][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1056",
+            "tactic": "credential-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used keylogging tools called KEYPUNCH and LONGWATCH.  [10][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1046",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used the publicly available tool SoftPerfect Network Scanner as well as a custom tool called GOLDIRONY to conduct network scanning.[10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1027",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has encrypted and encoded data in its malware, including by using base64.[6][7][5][14][12]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1201",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used net.exe in a script with net accounts /domain to find the password policy of a domain.[16]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1069",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used net group /domain, net localgroup administrators, net group \"domain admins\" /domain, and net group \"Exchange Trusted Subsystem\" /domain to find group permission settings on a victim.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1086",
+            "tactic": "execution",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used PowerShell scripts for execution, including use of a macro to run a PowerShell command to decode file contents.[6][8][14]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1057",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has run tasklist on a victim's machine.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1012",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used reg query \"HKEY_CURRENT_USER\\Software\\Microsoft\\Terminal Server Client\\Default\" on a victim to query the Registry.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1108",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used RGDoor via Web shell to establish redundant access. The group has also used harvested credentials to gain access to Internet-accessible resources such as Outlook Web Access, which could be used for redundant access.[5]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1108",
+            "tactic": "persistence",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used RGDoor via Web shell to establish redundant access. The group has also used harvested credentials to gain access to Internet-accessible resources such as Outlook Web Access, which could be used for redundant access.[5]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1076",
+            "tactic": "lateral-movement",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used Remote Desktop Protocol for lateral movement. The group has also used tunneling tools to tunnel RDP into the environment.[5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1105",
+            "tactic": "command-and-control",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig can download remote files onto victims.[6]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1105",
+            "tactic": "lateral-movement",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig can download remote files onto victims.[6]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1021",
+            "tactic": "lateral-movement",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used Putty to access compromised systems.[5]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1053",
+            "tactic": "execution",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has created scheduled tasks that run a VBScript to execute a payload on victim machines.[9][7][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1053",
+            "tactic": "persistence",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has created scheduled tasks that run a VBScript to execute a payload on victim machines.[9][7][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1053",
+            "tactic": "privilege-escalation",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has created scheduled tasks that run a VBScript to execute a payload on victim machines.[9][7][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1113",
+            "tactic": "collection",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has a tool called CANDYKING to capture a screenshot of user's desktop.[10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1064",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used various types of scripting for execution, including .bat and .vbs scripts. The group has also used macros to deliver malware such as QUADAGENT and OopsIE.[6][11][9][7][12]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1064",
+            "tactic": "execution",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used various types of scripting for execution, including .bat and .vbs scripts. The group has also used macros to deliver malware such as QUADAGENT and OopsIE.[6][11][9][7][12]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1193",
+            "tactic": "initial-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has sent spearphising emails with malicious attachments to potential victims using compromised and/or spoofed email accounts.[9][7][14]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1192",
+            "tactic": "initial-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has sent spearphising emails with malicious links to potential victims.[9]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1194",
+            "tactic": "initial-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used LinkedIn to send spearphishing links. [13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1071",
+            "tactic": "command-and-control",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used HTTP and DNS for C2. The group has also used the Plink utility and other tools to create tunnels to C2 servers.[5][10][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1032",
+            "tactic": "command-and-control",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig used the Plink utility and other tools to create tunnels to C2 servers.[10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1082",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has run hostname and systeminfo on a victim.  [3][4][13]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1016",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has run ipconfig /all on a victim.[3][4]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1049",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used netstat -an on a victim to get a listing of network connections.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1033",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has run whoami on a victim.[3][4]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1007",
+            "tactic": "discovery",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used sc query on a victim to gather information about services.[3]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1204",
+            "tactic": "execution",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has delivered malicious links and macro-enabled documents that required targets to click the \"enable content\" button to execute the payload on the system.[9][7][14]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1078",
+            "tactic": "defense-evasion",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used compromised credentials to access other systems on a victim network.[5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1078",
+            "tactic": "persistence",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used compromised credentials to access other systems on a victim network.[5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1078",
+            "tactic": "privilege-escalation",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used compromised credentials to access other systems on a victim network.[5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1078",
+            "tactic": "initial-access",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used compromised credentials to access other systems on a victim network.[5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1100",
+            "tactic": "persistence",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used Web shells, often to maintain access to a victim network.[5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1100",
+            "tactic": "privilege-escalation",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used Web shells, often to maintain access to a victim network.[5][10]",
+            "enabled": true,
+            "metadata": []
+        },
+        {
+            "techniqueID": "T1047",
+            "tactic": "execution",
+            "score": 1,
+            "color": "",
+            "comment": "OilRig has used WMI for execution.[10]",
+            "enabled": true,
+            "metadata": []
+        }
+    ],
+    "gradient": {
+        "colors": [
+            "#ffffff",
+            "#66b1ff"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    },
+    "legendItems": [
+        {
+            "color": "#66b1ff",
+            "label": "used by OilRig"
+        }
+    ],
+    "metadata": [],
+    "showTacticRowBackground": false,
+    "tacticRowBackground": "#dddddd",
+    "selectTechniquesAcrossTactics": true
+}
